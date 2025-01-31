@@ -1,44 +1,20 @@
-Pytanie /1 20 (1 pkt.)
-Jaka definicja linku jest prawidłowa?
-Pytanie /2 20 (1 pkt.)
-W języku HTML, aby nadać dokumentowi tytuł „SPRAWDZIAN”, który będzie 
-wyświetlany na zakładce.
-Pytanie /3 20 (1 pkt.)
-W języku HTML, aby zdefiniować poziomą linie, należy użyć znacznika.
-Pytanie /4 20 (1 pkt.)
-Pole formularza:
-<input type="password" …………………..> ze wszystkimi parametrami.
-Pytanie /5 20 (1 pkt.)
-W języku HTML, aby scalić w pionie lub poziomie dwie sąsiednie komórki w
-tabeli, należy zastosować atrybut.
-Pytanie /6 20 (1 pkt.)
-Listy punktowane, numerowane zagnieżdżone.
-która, jest numerowana z zagnieżdżoną listą punktowaną.
-Pytanie /7 20 (1 pkt.)
-Budowania hierarchii tekstu z użyciem nagłówków w języku HTML?
-Pytanie /8 20 (1 pkt.)
-Sposób kodowania znaków strony
-Pytanie /9 20 (1 pkt.)
-Aby wstawić, w języku HTML grafikę, na stronę WWW należy:
-Pytanie /10 20 (1 pkt.)
-Wersje HTML (od najstarszej do najnowszej)
-Pytanie /11 20 (1 pkt.)
-Walidacja strony WWW to:
-Pytanie /12 20 (1 pkt.)
-Spacja niełamliwa realizowana jest w następujący sposób:
-Pytanie /13 20 (1 pkt.)
-Pogrubienie, podkreślenie tekstu.
-Pytanie /14 20 (1 pkt.)
-Znacznik kursywy, indeksu górnego i dolnego.
-Pytanie /15 20 (1 pkt.)
-Nagłówków najmniejszy, największy.
-Pytanie /16 20 (1 pkt.)
-W języku HTML aby zdefiniować słowa kluczowe strony, należy użyć zapisu:
-Pytanie /17 20 (1 pkt.)
-W HTML, aby wykonać pole do wpisywania hasła to:
-Pytanie /18 20 (1 pkt.)
-Jakie błąd wykryje Walidator.
-Pytanie /19 20 (1 pkt.)
-Załadowanie strony do nowego okna lub karty.
-Pytanie /20 20 (1 pkt.)
-Który znaczniki nie wymaga zamknięcia?
+1. Link to element HTML, który umożliwia tworzenie odnośników do innych stron lub zasobów.
+2. `<title>SPRAWDZIAN</title>`
+3. `<hr>`
+4. `<input type="password" name="haslo" id="haslo" />`
+5. `rowspan` dla scalania w pionie, `colspan` dla scalania w poziomie.
+6. Lista numerowana `<ol>` zagnieżdżona z listą punktowaną `<ul>`.
+7. Nagłówki `<h1>` do `<h6>` tworzą hierarchię tekstu.
+8. Atrybut `<meta charset="UTF-8">`
+9. `<img src="ścieżka_do_obrazu.jpg" alt="opis" />`
+10. HTML 1.0, HTML 2.0, HTML 3.2, HTML 4.01, XHTML, HTML5.
+11. Walidacja strony to proces sprawdzania poprawności kodu HTML i CSS.
+12. `&nbsp;`
+13. Pogrubienie: `<b>tekst</b>`, podkreślenie: `<u>tekst</u>`
+14. Kursywa: `<i>tekst</i>`, indeks górny: `<sup>tekst</sup>`, indeks dolny: `<sub>tekst</sub>`
+15. Największy: `<h1>`, najmniejszy: `<h6>`
+16. `<meta name="keywords" content="słowo1, słowo2, ...">`
+17. `<input type="password">`
+18. Błędy w składni HTML, brakujące tagi, nieprawidłowe atrybuty.
+19. Atrybut `target="_blank"`
+20. `<br>`, `<img>`, `<hr>` (tagi samodzielne, nie wymagają zamknięcia).
