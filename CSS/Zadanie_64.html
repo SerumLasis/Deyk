@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <table border="1" width="100%" height="75">
+        <tr>
+            <th><p style="font-size: 35px;">narożników obszarów bloków np. DIV</p></th>
+        </tr>
+        <tr>
+            <th><p>Zaokrąglenie górnego-lewego<br>narożnika:</th>
+                <th>selektor { border-top-left-radius: zaokrąglenie }</th>
+        </tr>
+        <tr>
+            <th>Zaokrąglenie górnego-prawego<br>narożnika:</th>
+            <th>selektor { border-top-right-radius: zaokrąglenie }</th>
+        </tr>
+        <tr>
+            <th>Zaokrąglenie dolnego-prawego<br>narożnika:</th>
+            <th>selektor { border-bottom-right-radius: zaokrąglenie }</th>
+        </tr>
+        <tr>
+            <th>Zaokrąglenie dolnego-lewego<br>narożnika:</th>
+            <th>selektor { border-bottom-left-radius: zaokrąglenie }</th>
+        </tr>
+    </table>
+    <p><u>Zastosowanie:</u><br>
+        We wszystkich przypadkach selektorem może być dowolny znacznik, np. <br></p>
+        <ul>
+        <li>p – akapit
+        <li>h1 –nagłówek
+        <li>div –blok
+        </ul>
+        <p>
+        Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w <br>
+        procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj <br>
+        podanie:<br></p>
+        <ul>
+        <li>jednej wartości - zaokrąglenie symetryczne
+        <li>dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a 
+        druga - pionowy<br>
+        </ul>
+        Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę<br> 
+        strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone <br>
+        narożniki. Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie. <br>
+        Ale uwaga: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów. Jeśli <br>
+        promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz.<br>
+        Przykład:   </p>
+<table border="1" width="25%">
+    <tr>
+        <th>
+        border-top-right-radius: 10px
+        </th>
+    </tr>
+</table>
+<p style="font-size: 35px;"><b>_______ teorii zaokrąglanie narożników _______</b></p>
+<p style="font-size: 35px;"><b>__________początek teorii CENTROWANIA bloku DIV _______</b></p>
+W definicja CSS bloku DIV należy wpisać:
+<table border="1" width="25%">
+    <tr>
+        <th>
+margin-left: auto;
+margin-right: auto;
+        </th>
+    </tr>
+</table>
+<p style="font-size: 35px;"><b>__________koniec teorii CENTROWANIA bloku DIV _______</b></p>
+</body>
