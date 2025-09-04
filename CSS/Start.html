@@ -7,3 +7,15 @@
 </body>
 
 </html>
+
+<p id="last-modified"></p>
+
+<script>
+  const info = document.getElementById("last-modified");
+  info.innerHTML = `
+    <span style="color:red; font-weight:bold; font-size:2rem;">
+      Ostatnia modyfikacja strony
+    </span><br>
+    ${document.lastModified}
+  `;
+</script>
