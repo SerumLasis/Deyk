@@ -7,30 +7,3 @@
 </body>
 
 </html>
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <title>Ostatnia modyfikacja</title>
-  <style>
-    .last-modified-title {
-      color: red;
-      font-weight: bold;
-      font-size: 2rem;
-    }
-  </style>
-</head>
-<body>
-  <p id="last-modified"></p>
-
-  <script>
-    const info = document.getElementById("last-modified");
-    info.innerHTML = `
-      <span class="last-modified-title">
-        Ostatnia modyfikacja strony
-      </span><br>
-      ${document.lastModified}
-    `;
-  </script>
-</body>
-</html>
